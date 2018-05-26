@@ -8,7 +8,7 @@ public interface WdMethods {
 		
 	
 		/**
-		 * This method will launch the browser and 
+		 * This method will launch the chrome browser and 
 		 * maximise the browser and set the wait for 30 seconds 
 		 * and load the url
 		 * @author Babu - TestLeaf
@@ -27,7 +27,7 @@ public interface WdMethods {
 		public WebElement locateElement(String locator, String locValue) ;	
 		
 		/**
-		 * This method will locate the element using only id
+		 * This method will locate the element using id
 		 * @param locValue - The locator value by which the element to be found
 		 * @author Babu - TestLeaf
 		 * @throws NoSuchElementException
